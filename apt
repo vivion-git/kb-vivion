@@ -5,3 +5,7 @@
 ## CHECK INSTALLED FILES
 
 	dpkg -L markdown 
+
+## uninstall
+
+	dpkg -r a2ps 
