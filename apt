@@ -1,0 +1,7 @@
+## INSTALL SOFTWARE
+
+	sudo apt-get install markdown
+
+## CHECK INSTALLED FILES
+
+	dpkg -L markdown 
