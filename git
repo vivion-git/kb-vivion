@@ -11,3 +11,14 @@ literally it means you want to do one thing seriously.
 
 	git config --global core.editor vim
 
+`git config`: try to change configuration,
+
+if you use `--global`, it will change `~/.gitconfig`
+
+otherwise, it will change `.git/config`
+
+if you use `--global`, your change will affect all your git repos
+
+otherwise, it only has effect on the repo within which you run `git config` command
+
+
