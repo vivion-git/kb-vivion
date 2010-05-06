@@ -1,0 +1,10 @@
+## tar
+
+	tar zcvf 小羽20100501.tar.gz 小羽20100501
+
+        tar zcvf outputfilename.tar.gz inputfilename|dirname/
+
+-z -z, --gzip, --gunzip --ungzip
+           filter the archive through gzip
+
+see *man* to view more
