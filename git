@@ -1,6 +1,6 @@
 ## what is "--cached"?
 
-`working directory`: evrything in `kb-vivion` except `.git/`
+`working directory`: everything in `kb-vivion` except `.git/`
 
 `staging area`	: `.git/index`
 
