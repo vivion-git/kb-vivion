@@ -8,4 +8,4 @@ outputfile="$1"".html"
 echo $inputfile
 echo $outputfile
 markdown $inputfile > $outputfile
-firefox $outputfile
+firefox $outputfile&

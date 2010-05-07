@@ -1,23 +1,23 @@
 ## common workflow
 1.	navigate to your working dir, e.g
 
-	cd kb-vivion
+		cd kb-vivion
 
 2.	make some modification, e.g
 
-	vim git #do some editing here
+		vim git #do some editing here
 
 3.	check what you've changed
 
-	git diff
+		git diff
 
 4.	if you add a new file named `newFile`, you need to do this
 
-	git add newFile
+		git add newFile
 
 5.	otherwise you can use the below to commit directly
 
-	git commit -a -m "commit msg"
+		git commit -a -m "commit msg"
 
 6.	now it is done, you can use `tig`, or `gitk` to view your history
 ## commit: 
