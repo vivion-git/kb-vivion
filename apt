@@ -1,3 +1,4 @@
+	apt-get :down software and install
 ## INSTALL SOFTWARE
 
 	sudo apt-get install markdown
