@@ -1,0 +1,8 @@
+in ubuntu 10.04:
+
+basiclly all I did was to follow the instruction of the `pppoeconf` command
+
+all it takes are the *userID* and *PassWord*
+other things are all defauted.
+
+I know *pppoe* is in use by checking the configrations in Windows.
