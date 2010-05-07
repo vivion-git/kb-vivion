@@ -1,8 +1,8 @@
-I need linux commands first
+## terminate foreground process
 
-
-cd : Change directory
-
+Ctr+c
+## misc
+	cd : Change directory
 	$date
 	Thu May  6 21:45:20 CST 2010
 	mv : move files
