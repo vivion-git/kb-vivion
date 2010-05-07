@@ -12,7 +12,10 @@ cd : Change directory
 
 	ls : list files
 	ls -a :list hidden files
-	chmod :change mode
+## chmod :change mode
+
+	chmod +x fileName # i.g. make the file executable
+
 	tig :interface to git
 
 	man : check command
