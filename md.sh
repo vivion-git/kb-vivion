@@ -9,3 +9,19 @@ echo $inputfile
 echo $outputfile
 markdown $inputfile > $outputfile
 firefox $outputfile&
+
+# how to install this program
+# 
+# $chmod +x md.sh
+# $sudo mv md.sh /bin
+#
+# if you do not want to install
+# you can
+# $ chmod +x md.sh
+# $ ./md.sh fileName
+# the "./" above is used here, because you need to tell
+# the system where to find the program.
+# "./" means just the current location|working dir
+# you can use abusolute path as well, if you like
+# 
+#   $/home/vivion/kb-vivion/md.sh fileName
