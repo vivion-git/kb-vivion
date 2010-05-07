@@ -1,3 +1,13 @@
+## what is "--cached"?
+
+`working directory`: evrything in `kb-vivion` except `.git/`
+
+`staging area`	: `.git/index`
+
+`git repo`	: `.git`
+
+if you run `git add newFile`, then, this file is added to staging area,
+so you need to use `git diff --cached` to view the diff(the difference netween "staging area" and "repo")
 ## common workflow
 1.	navigate to your working dir, e.g
 
