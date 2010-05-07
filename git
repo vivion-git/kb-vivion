@@ -9,7 +9,7 @@
 
 3.	check what you've changed
 
-		git diff
+		git diff # you need use "git diff --cached" if you "git add newFile"
 
 4.	if you add a new file named `newFile`, you need to do this
 
