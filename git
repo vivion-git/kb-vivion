@@ -1,3 +1,17 @@
+## reset
+
+sometimes you made some changes, but later you regret it, so you want to go back
+
+then `git reset` is what you need 
+
+### throw away the uncommited changes
+
+	git reset --hard HEAD
+
+### throw a bad commit 
+
+	git reset --hard HEAD^
+
 ## what is "--cached"?
 
 `working directory`: everything in `kb-vivion` except `.git/`
