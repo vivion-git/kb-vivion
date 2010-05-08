@@ -5,4 +5,8 @@ basiclly all I did was to follow the instruction of the `pppoeconf` command
 all it takes are the *userID* and *PassWord*
 other things are all defauted.
 
+	$pon dsl-provider
+
+if things are not valid, try above command to restart the service.
+
 I know *pppoe* is in use by checking the configrations in Windows.
