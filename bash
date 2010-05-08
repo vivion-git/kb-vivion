@@ -2,6 +2,7 @@
 
 Ctr+c
 ## misc
+	mkdir dirName : creat a new dir
 	cd : Change directory
 	rm -rf:remove directory xxx
 	pwd: Print Working dir
