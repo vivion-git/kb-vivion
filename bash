@@ -1,3 +1,6 @@
+## search a file
+    find (directory) |grep -i keywords
+     to search a file if you do't know which directory it is in.
 ## terminate foreground process
 
 Ctr+c

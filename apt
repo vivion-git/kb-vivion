@@ -1,3 +1,9 @@
+## listed all installed software
+	
+	vivion@redbird:~$ dpkg --get-selections|grep googl
+	google-desktop-linux				install
+	libgdata-google1.2-1				install
+
 	apt-get :down software and install
 ## INSTALL SOFTWARE
 
