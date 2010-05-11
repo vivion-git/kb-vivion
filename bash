@@ -1,3 +1,7 @@
+## to examine the file that defines alll the system's user accounts ,
+   enter the commands:
+   less /etc/passwd
+   
 ## search a file
     find (directory) |grep -i keywords
      to search a file if you do't know which directory it is in.

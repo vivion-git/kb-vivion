@@ -25,7 +25,7 @@ rm *.sh.html
 for file in $(ls *.html)
 do
     tag=$(echo $file|awk -F"." '{ print $1}') ## rm the trailing ".html" in $file
-    echo "<h1>===== "$tag" ======</h1>">>output.html
+    echo "<h1>"$tag"</h1>">>output.html
     cat $file >> output.html
 done
 
