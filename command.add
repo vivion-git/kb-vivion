@@ -1,0 +1,20 @@
+##about cat 
+	cat :a command reads one or more files and copies them to standard output .
+	cat file1 file2 ... > newfile
+        cat 
+        input "what you have input bu keyboard"
+        output the same content
+        cat > filename 
+       	input something by keyboard
+  	output the file what you have input.
+    	e.g. cat > lazy.txt
+        there is something wrong.
+	vim lazy.txt
+	there is something wrong.
+##ls -l direction > a newfile
+when the newfile has exited,the command will sent the conten in the direction to the newfile
+when the newfil has not exited ,we should use the command:
+	ls -l direction >> a newfile
+this command will result in the output being appended to the file.
+## alias  the command will creat a newfile by an equals sign.
+ 	alisa foo='cd /usr; ls; cd .'
