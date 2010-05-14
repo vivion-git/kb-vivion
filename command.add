@@ -17,4 +17,22 @@ when the newfil has not exited ,we should use the command:
 	ls -l direction >> a newfile
 this command will result in the output being appended to the file.
 ## alias  the command will creat a newfile by an equals sign.
+
  	alisa foo='cd /usr; ls; cd .'
+
+
+##about the command "sudo"and "chown"
+sudo:to grant superuser privileges.
+su: start a shell as another user.
+su -l username
+chown: the command is used to change the owner of a file or directory.
+the command is used as :
+ivion@redbird:~$ vim nline.py
+vivion@redbird:~$ sudo cp nline.py ~peter
+[sudo] password for vivion: 
+vivion@redbird:~$ sudo ls -l /home/peter/nline.py 
+-rw-r--r-- 1 root root 252 2010-05-14 18:31 /home/peter/nline.py
+vivion@redbird:~$ sudo chown peter: ~/nline.py
+vivion@redbird:~$ sudo ls -l ~peter/nline.py
+-rw-r--r-- 1 root root 252 2010-05-14 18:31 /home/peter/nline.py
+
