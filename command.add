@@ -35,4 +35,13 @@ vivion@redbird:~$ sudo ls -l /home/peter/nline.py
 vivion@redbird:~$ sudo chown peter: ~/nline.py
 vivion@redbird:~$ sudo ls -l ~peter/nline.py
 -rw-r--r-- 1 root root 252 2010-05-14 18:31 /home/peter/nline.py
-
+##about echo
+echo:to display aline of text
+	vivion@redbird:~$ echo this is a test
+	 this is a test
+	vivion@redbird:~$ echo $((2+2))
+	4
+	"$"there is used in expression,
+	vivion@redbird:~$ echo "this is a   test"
+	this is a   test
+	vivion@redbird:~$
