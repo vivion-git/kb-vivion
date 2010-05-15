@@ -1,0 +1,18 @@
+##change file mode
+	chmod:to change the mode (permission)of a file or directory,it supports two distinct ways of specifying mode changes:octal number representation or symbolic representation..
+	e.g. vivion@redbird:~/kb-vivion $> foo.txt
+             
+             vivion@redbird:~/kb-vivion$ ls -l foo.txt
+ 	     vivion@redbird:~/kb-vivion$> chmod 600 foo.txt
+             vivion@redbird:~/kb-vivion$> ls -l foo.txt
+      unmask: set default permission
+      only to give a file when is is created.
+it used octal notation to express a mask of bits to removed from a file's mode attributes.
+e.g.	vivion@redbird:~/kb-vivion$> rm -f foo.txt  :removethe file foo.txt
+        vivion@redbird:~/kb-vivion$> unmask 
+                                  0002      :000 000 000 010
+        vivion@redbird:~/kb-vivion$> foo.txt         :create a new file (foo.txt)
+        vivion@redbird:~/kb-vivion$> ls -l foo.txt   :display the file permission  (rw-rw-r-)
+when using the commmand unmask ,everywhere a 1 appears in the binary value of the mask,an attribute is unset.   
+              
+	   
