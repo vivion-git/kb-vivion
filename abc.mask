@@ -14,5 +14,3 @@ e.g.	vivion@redbird:~/kb-vivion$> rm -f foo.txt  :removethe file foo.txt
         vivion@redbird:~/kb-vivion$> foo.txt         :create a new file (foo.txt)
         vivion@redbird:~/kb-vivion$> ls -l foo.txt   :display the file permission  (rw-rw-r-)
 when using the commmand unmask ,everywhere a 1 appears in the binary value of the mask,an attribute is unset.   
-              
-	   

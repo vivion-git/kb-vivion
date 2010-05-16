@@ -19,3 +19,38 @@ in command mode `q:a  q` to record what you do
 
 and `@a` to reuse what you've recorded
 
+add vim command:
+	l:right one character
+ 	h:left one character
+	j:down one lineG
+	k:up one line
+	0:to the beginning of the current line
+	$:to the end of the current line
+	b:to the begining of the previous word or punctuation character
+	B:to the begining of the previous word ,ingoring punctuation characters
+
+	ctrl-f:down one page
+	ctrl-b:up one page
+	a:move past the end of the line and enter insert mode
+	A:move the cursor to the end of the line before starting insert mode
+	o:the line below the current line
+	O:the line above the current line
+	d:to deletes text or cuts text
+     	y: copy the text 
+	p:to paste the text 
+	J: to join lines together
+##global search and replace
+	:%s/line/Line/gc
+##editing multiple files and switch between files
+	vivion@redbird:~/kb-vivion$ vim ls-out.txt foo.txt 
+	:n to switch from one file to the next one
+	:N to move back to the previous file use
+if you want to open a file first ,and second open to another file ,you shuld start with:vivion@redbird:~/kb-vivion$ vim ls-out.txt 
+and second you are to add the second file,enter:e foo.txt
+and it should appear on the screen.but if you want to switch them ,the command "n"is not effective,you should use the command "buffer,number".that's all.
+##inserting an entire file into another
+	:r filename
+##saving our work
+:w filename    the "w"command acts like"save as ......",it does not change the name of the file you are editing,it saves the file under a new name.
+
+
