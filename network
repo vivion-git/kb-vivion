@@ -10,3 +10,31 @@ other things are all defauted.
 if things are not valid, try above command to restart the service.
 
 I know *pppoe* is in use by checking the configrations in Windows.
+
+##network command
+	ping :send a special network these packets .
+    
+ e.g vivion@redbird:~$ ping linuxcommand.org
+
+	traceroute:display a listing of all the "hops "network traffic takes to get from the logal system to a specified host .
+
+	vivion@redbird:~$ traceroute slashdot.org
+
+	netstat:used to examine various network settings and statistics.
+
+	vivion@redbird:~$ netstat -ie         to display the network interfaces in our system .
+	
+	  vivion@redbird:~$ netstat -r         to display the kernel's network routing table.(including IP and destination ,gateway ,getemark and so on)
+
+	##ftp:transporting files ouver a network
+	download a file from another commputer   
+        steps:vivion@redbird:~$ fpt fileserver
+	      input the login name and password
+	      ftp> cd pub/cd_images/filename
+	      ftp> ls
+	      ftp> lcd desktop
+	      ftp> get filename
+	      ftp> bye
+	wget: downloading content from both web and ftp sites.
+        wget http://linuxcommand.org/index.php         to download the first page of linuxcommand.org
+    	ssh:  
