@@ -1,3 +1,15 @@
+## quote
+
+	vivion@vivion-laptop:~$ echo `ls`
+	Desktop Documents examples.desktop Music Pictures Public Templates Videos
+	vivion@vivion-laptop:~$ echo 'ls'
+	ls
+	vivion@vivion-laptop:~$ echo '$PATH'
+	$PATH
+	vivion@vivion-laptop:~$ echo "$PATH"
+	/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+	vivion@vivion-laptop:~$ 
+
 ## to examine the file that defines alll the system's user accounts ,
    enter the commands:
    less /etc/passwd
