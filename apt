@@ -16,3 +16,14 @@
 ## uninstall
 
 	dpkg -r a2ps 
+
+vivion@vivion-laptop:~$ dpkg -r -B network-manager
+dpkg: requested operation requires superuser privilege
+vivion@vivion-laptop:~$ sudo dpkg -r -B network-manager
+dpkg: dependency problems prevent removal of network-manager:
+ network-manager-gnome depends on network-manager (>= 0.7~~svn20080928); however:
+  Package network-manager is to be removed.
+dpkg: error processing network-manager (--remove):
+ dependency problems - not removing
+Errors were encountered while processing:
+
