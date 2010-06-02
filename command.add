@@ -1,8 +1,8 @@
 ##about cat 
 	cat :a command reads one or more files and copies them to standard output .
-	cat file1 file2 ... > newfile
+	cat file2 file2 ... > newfile
         cat 
-        input "what you have input bu keyboard"
+        input "what you have input by keyboard"
         output the same content
         cat > filename 
        	input something by keyboard
@@ -45,3 +45,65 @@ echo:to display aline of text
 	vivion@redbird:~$ echo "this is a   test"
 	this is a   test
 	vivion@redbird:~$
+6.1
+	ln:create link
+hard link:ln file link;it can iditified with the file,and the size of hard link is nearly the same with the file.
+symblic link:ln -s file link(or directory)
+whichis :lnly works for executable programs.
+alias :assign to the name
+unalias :not assign to the name ;we can write alias file into(.bashrc file),after we change the.bashrc file ,the alias will work and save.
+e.g. alias foo ='cd /usr;ls;cd -'
+	vim .bashrc;editor .bashrc file and save ,then the next time we input foo ,it can run 'cd/usr ;ls;cd -'
+	sort:make order for the string.
+	less:pager;display the first page
+	uniq:to remove any duplicates from the output of the sort command.
+	head/tail -n(-f):print the first /last part of files .
+	head -n5 ls-output.txt
+	tail -n5 ls-output.txt
+	tail -f /var/log/message :to view files in real-time.
+	tee:read from stain and output to stdout and files seperate it into two branches
+	ls /usr/bin/tee ls.txt | grep zip
+echo $() :command
+echo $(()) :expression
+``:to execute the command in ``
+'':output the same content
+"":to express what is in ""
+"\":escape the especial meaning
+chmod :change file mode 
+unmask:when zero appear,the attribute is set .
+chown:change file owner .
+chgrp:change group ownership.
+when you want to modified a file ,but you have no privileges ,you can change the file's ownership and group ownership.
+-rw-r--r-x:(owner-gou will acroup-others)
+chown vivion file:change file's owner
+chgrp vivion file:change file's ownership 
+	terminal create
+ctrl+shift +t:create a terminal tab
+ctrl+pageon/pageup :switch erminal tab
+ctrl+d:shut down 
+ctrl+l:clear scream
+"#"symbols to begin a comment (shell)
+if you remove "#",you will activate the aliases.
+	ftp and ssh
+ftp fileserver
+ftp>ls remote command
+ftp>lls local command
+	lpwd local working path
+ssh: ssh usrname@server.com
+     scp filename remote path usrname local ip :path
+local operating
+scp usrname@server.com :path /filename .(from remote server to local server)
+	find 
+find:find file the hard way
+find ~ -type d | wc -l
+	compress command
+tar.jcvf filename.tar.bz2  the original file 
+tar.zcvf filename.tar.gz the original file
+	uncompress command
+tar.jxvf pakagefile (tar.bz2)
+tar.zxvf pakagefile (tar.gz)
+
+
+
+
+
