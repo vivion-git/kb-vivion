@@ -4,7 +4,10 @@
 
         tar zcvf outputfilename.tar.gz inputfilename|dirname/
 
--z -z, --gzip, --gunzip --ungzip
-           filter the archive through gzip
+ 	tar jxvf git-1.7.1.tar.bz2 
+	tar jcvf git-1.7.1.tar.bz2 git-1.7.1
+	tar zxvf git-1.7.1.tar.gz
+	file git-1.7.1.tar.gz 
+	tar zcvf git-1.7.1.tar.gz git-1.7.1
+	tar zxvf git-1.7.1.tar.gz 
 
-see *man* to view more
