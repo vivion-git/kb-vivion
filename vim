@@ -55,13 +55,16 @@ and it should appear on the screen.but if you want to switch them ,the command "
 
 
 open two files
-in vim,when we first window and then open another )
+in vim, when we first window and then open another )
 :vnew filename(path)
-ctrl+ww ,switch to another window
+ctrl+ww: switch to another window
  connect the files
-:r path filename (when the cursur is in the destiny destiny window)
-when we open two files with vim ,one is output and the other is ni buffers.
+:r path filename (when the cursor is in the destiny window)
+when we open two files with vim, one is shown in a window and the other is in buffer.
+
 :n and N to switch files
-	rsync filname
-rsync -r --delete filename
+
+## rsync filname
+
+	rsync -r --delete filename
  

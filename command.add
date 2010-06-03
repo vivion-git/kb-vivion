@@ -97,11 +97,11 @@ scp usrname@server.com :path /filename .(from remote server to local server)
 find:find file the hard way
 find ~ -type d | wc -l
 	compress command
-tar.jcvf filename.tar.bz2  the original file 
-tar.zcvf filename.tar.gz the original file
+tar jcvf filename.tar.bz2  the original file 
+tar zcvf filename.tar.gz the original file
 	uncompress command
-tar.jxvf pakagefile (tar.bz2)
-tar.zxvf pakagefile (tar.gz)
+tar jxvf pakagefile (tar.bz2)
+tar zxvf pakagefile (tar.gz)
 
 
 
