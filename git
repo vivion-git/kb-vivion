@@ -66,7 +66,9 @@ if you use `--global`, it will change `~/.gitconfig`
 otherwise, it will change `.git/config`
 
 if you use `--global`, your change will affect all your git repos
+##git status  
+vivion@vivion-laptop:~/ddd$ git status
+check the modified filenames
 
-otherwise, it only has effect on the repo within which you run `git config` command
 
 

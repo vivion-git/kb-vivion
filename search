@@ -1,0 +1,8 @@
+find kb-vivion/ -exec grep --color "ba" {} ';' -print
+# this command can search the keyword in file content ,not in directory .if delete the `-print` ,not display the file name.
+
+
+find . | grep "con" -i 
+
+find . | grep "gitcon" -i 
+
