@@ -68,3 +68,33 @@ when we open two files with vim, one is shown in a window and the other is in bu
 
 	rsync -r --delete filename
  
+## general form of vim commands
+
+<command><text object>
+    d   [number]     w
+    d      2         w
+## how to cut and paste a line
+
+1.	move cursor to the line
+2.	dd
+3.	move cursor to where you want to paste
+4.	p or P
+
+## how to cut and paste a block
+
+1.	move cursor to the starting line
+2.	`ma` to set mark as 'a'
+3.	move cursor to the ending line
+4.	`d'a` to cut the text block between mark "a" and current
+	cursor position
+5.	p or P to paste
+
+## how to copy and paste a block
+
+1.	move cursor to the starting line
+2.	`ma` to set mark as 'a'
+3.	move cursor to the ending line
+4.	`y'a` to copy the text block between mark "a" and current
+	cursor position
+5.	p or P to paste
+
