@@ -1,8 +1,41 @@
 find kb-vivion/ -exec grep --color "ba" {} ';' -print
 # this command can search the keyword in file content ,not in directory .if delete the `-print` ,not display the file name.
-
-
 find . | grep "con" -i 
 
 find . | grep "gitcon" -i 
+##to find file with "^" and []
+grep -h '^zip' filename       :to find the file whose name is begin with 'z'and including the keyword 'ip'.
+grep -h '^[A-Z] ' filename    :to find the file whose name is begin with uppercase.
+##sed :check and replace the string
+vivion@vivion-laptop:~$ echo "front" | sed 's/front/back/'
+back
+vivion@vivion-laptop:~$ echo "front jjjj" | sed 's/front/back/'
+back jjjj
+n is meanings the n line.
+vivion@vivion-laptop:~/kb-vivion$ echo "front jjjj" | sed '1s/front/back/'
+back jjjj
+vivion@vivion-laptop:~/kb-vivion$ echo "front jjjj" | sed '2s/front/back/'
+front jjjj
+
+##'p',to match line to be printed,'!p',negation ,to print the line without matching.
+vivion@vivion-laptop:~/kb-vivion$ sed -n '/suse/p' sue
+suse	10.2	12/07/2008
+suse 	11.0	06/19/2008
+suse	10.3	10/04/2007
+vivion@vivion-laptop:~/kb-vivion$ sed -n '/suse/!p' sue
+fedora	10	11/25/2008
+ubuntu	8.04	04/24/2008
+fedora	8	11/08/2007
+
+##only to the first instance of the letter "b"
+vivion@vivion-laptop:~/kb-vivion$ echo "aaabbbccc" | sed 's/b/B/'
+aaaBbbccc
+##by adding the 'g' flag ,we are able to change all the instances;
+vivion@vivion-laptop:~/kb-vivion$ echo "aaabbbccc" | sed 's/b/B/g'
+aaaBBBccc
+##aspell check :to check the spell mistake 
+vivion@vivion-laptop:~/kb-vivion$ vim foo.txt.html
+vivion@vivion-laptop:~/kb-vivion$ aspell check foo.txt
+vivion@vivion-laptop:~/kb-vivion$ vim foo.txt.html
+vivion@vivion-laptop:~/kb-vivion$ aspell check foo.txt.html
 
