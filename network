@@ -37,4 +37,12 @@ I know *pppoe* is in use by checking the configrations in Windows.
 	      ftp> bye
 	wget: downloading content from both web and ftp sites.
         wget http://linuxcommand.org/index.php         to download the first page of linuxcommand.org
-    	ssh:  
+    	ssh:  login remote host
+	ssh usrname@remotehost/ip
+	before you login the remote host ,be sure the present usr is right ,if the present usr is not exist,pleaseuse like this :ssh usrname@remotehostlogin remote host
+	ssh usrname@remotehost or ip
+	before you login the remote host ,be sure the present usr is right .if the usr is exist ,you can write as this :ssh remotehost or the remote ip;but if the present usr is not exist,pleaseuse like this :ssh usrname@remotehost
+	ssh -D -N port usrname@remotehost  #this command is to connect the remotehost for e.g.(youtube and facebook and so on)
+
+	fist you should set the port and socks host in  firefox and write "the value of the network.proxy.socks_remote_dns is true"in firefox config (input the about:config in firefox address) 
+
