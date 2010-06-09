@@ -63,3 +63,16 @@ vivion@vivion-laptop:~/kb-vivion$ sort -k 5nbr -k 6.6nbr -k 6.9nbr num.txt
 -rw-r--r-- 1 vivion vivion    0 2010-06-03 13:22 num.txt
 total 64
 
+	df -h  :the command is to display disk space
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda9              12G  2.5G  8.4G  24% /
+tmpfs                 501M     0  501M   0% /lib/init/rw
+varrun                501M  124K  501M   1% /var/run
+varlock               501M     0  501M   0% /var/lock
+udev                  501M  168K  501M   1% /dev
+tmpfs                 501M   76K  501M   1% /dev/shm
+lrm                   501M  2.4M  499M   1% /lib/modules/2.6.28-11-generic/volatile
+/dev/sda10             12G  2.2G  8.4G  21% /home
+
+	uptime :display how long the system running.
+
