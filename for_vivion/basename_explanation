@@ -1,0 +1,41 @@
+name of a file
+
+so in computer science, a file is usually named with its path.
+
+when you want to talk about a file, you should always give its path first, so
+a full name of a file may show like this
+
+FULLNAME:
+
+/home/peter/dd
+
++++++++++++
+
+and `basename` is command that gives you the BASENAME of the argument you
+passs to it. e.g.
+
+$ basename /home/peter/dd
+dd
+
+now we know the BASENAME of /home/peter/dd
+is:
+dd
+
+that is right!
+
+so a name is just a name, if we say dd has FULLNAME, 
+
+FULLNAME=/PATH/TO/THE/FILE + BASENAME
+
+BASENAME is nothing but the filename
+
+while
+
+FULLNAME is PATH+the filename
+
+the command `basename` is not the same like "ls".
+
+what `basename` does is to remove the PATH out of FULLNAME, thus only the
+filename left as its output.
+
+'ls' is just to show files in a given dir.

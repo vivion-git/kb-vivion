@@ -1,0 +1,16 @@
+#!/bin/bash
+# file_info
+
+PROGRAM=$(basename $0)
+# PROGRAM is a shell variable
+# `$()` is the shell operator that runs your command with in the () and ruturn
+# its output (the output of the command) to stdout
+
+echo $PROGRAM
+echo "\$1 is:" $1
+
+
+# parameter : if we use print("hello"), the `hello` here is the parameter of
+# function `print`
+# argument: ls -l "-l" is a argumant of the command `ls`
+# integer is word to say a data type. 1,2,3...are integers.
