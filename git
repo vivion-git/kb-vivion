@@ -71,3 +71,21 @@ vivion@vivion-laptop:~/ddd$ git status
 check the modified filenames
 
 
+global setup:
+
+ Download and install Git
+  git config --global user.name "vivion-git"
+  git config --global user.email jz0923@yahoo.cn
+        
+
+Next steps:
+
+  mkdir nymph
+  cd nymph
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:vivion-git/nymph.git
+  git push origin master
+    
