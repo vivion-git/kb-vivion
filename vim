@@ -1,9 +1,8 @@
 #vim commands
 ## move around
 
-	`gg` : to the beginning of this file
-
-	`G`: to the end of the file
+	`gg`:to the beginning of this file
+	`G`:to the end of the file
 	"x":to delet a character
 	"u":undo 
 	"r":replace a character 
