@@ -38,6 +38,9 @@ add vim command:
      	y: copy the text 
 	p:to paste the text 
 	J: to join lines together
+    cw:in command mode ,when we want to change the word ,we can print the
+"cw",and then we will enter the insert mode and  input the word .
+    dd...:to delete the following line.one "."means a line.
 ##global search and replace
 	:%s/line/Line/gc
 ##editing multiple files and switch between files
