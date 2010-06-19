@@ -4,7 +4,10 @@
         cat 
         input "what you have input by keyboard"
         output the same content
-        cat > filename 
+        cat > filename   : > means to make a newfile or overwrite the file.
+                          >> means to make a newfile (if the file is not
+                          >> exist)and add something to the file,not
+                          >> overwritet the file. 
        	input something by keyboard
   	output the file what you have input.
     	e.g. cat > lazy.txt
@@ -62,6 +65,11 @@ e.g. alias foo ='cd /usr;ls;cd -'
 	tail -n5 ls-output.txt
 	tail -f /var/log/message :to view files in real-time.
 	tee:read from stain and output to stdout and files seperate it into two branches
+    cut :to extract a section of text from a line and output the extracted
+section to standard output.
+    there are four options about cut ,see man page and know how to use it.
+    paste :to add one or more columns of text to a file.
+    join :not as same as 'paste',it uses a unique way to do it. 
 	ls /usr/bin/tee ls.txt | grep zip
 echo $() :command
 echo $(()) :expression
