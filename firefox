@@ -1,11 +1,12 @@
 ## short-cut
 
-Ctr++ : enlarge font
-Ctr-- : shrink
+shift +ctr+ : enlarge the terminal window
+Ctr-- : shrink the terminal window
 
 Ctr + u: check html source
 
-Ctr+w: close tab
+Ctr+d: close tab
+ctrl+w:close window
 
 Ctr+c+l:change link
 

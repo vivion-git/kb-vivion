@@ -70,7 +70,7 @@ section to standard output.
     there are four options about cut ,see man page and know how to use it.
     paste :to add one or more columns of text to a file.
     join :not as same as 'paste',it uses a unique way to do it. 
-	ls /usr/bin/tee ls.txt | grep zip
+	ls /usr/bin | tee ls.txt | grep zip
 echo $() :command
 echo $(()) :expression
 ``:to execute the command in ``

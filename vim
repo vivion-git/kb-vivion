@@ -30,7 +30,7 @@ add vim command:
 
 	ctrl-f:down one page
 	ctrl-b:up one page
-	a:move past the end of the line and enter insert mode
+	a:move the next charactor of the line and enter insert mode
 	A:move the cursor to the end of the line before starting insert mode
 	o:the line below the current line
 	O:the line above the current line
