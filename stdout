@@ -1,0 +1,15 @@
+standard input ,standard output and standar error.
+we can use the operator ">>" and ">".using the ">>"operator will result in the
+output bingappended to the file .and using the ">"operator will rewrite the
+file.
+usually ,we the shell refereces the stdin ,stdout and stderr internally as file descriptors zero ,one
+and two .
+$ls -l /bin/usr 2>ls-error.txt
+this means redirect the stderr to the file ls-error.txt.
+>ls-output.txt 2>&1
+redirects standard error to the file ls-output.txt ,but if the order is
+changed to 2>&1 >ls-output  ,standard error is directed to the screen.
+we can also use the single notation &> to redirect both standard output and
+standard error to the file ls-output.txt.
+ls -l /bin/usr &> ls-output.txt
+
