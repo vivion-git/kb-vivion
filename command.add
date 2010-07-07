@@ -38,6 +38,12 @@ vivion@redbird:~$ sudo ls -l /home/peter/nline.py
 vivion@redbird:~$ sudo chown peter: ~/nline.py
 vivion@redbird:~$ sudo ls -l ~peter/nline.py
 -rw-r--r-- 1 root root 252 2010-05-14 18:31 /home/peter/nline.py
+sudo chown :peter filename    to change the groupship of the file
+sudo chown peter: filename    to change the ownership and groupship of the
+file
+sudo chown peter  filename     to change the ownership of the file.
+so we can use the command "chown" to change the ownership and groupship.
+
 ##about echo
 echo:to display aline of text
 	vivion@redbird:~$ echo this is a test
