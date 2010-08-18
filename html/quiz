@@ -131,3 +131,6 @@ Unordered list
     </address>
 
     Source : http://www.w3schools.com/html/html_quick.asp
+
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd"> 

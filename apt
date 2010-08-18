@@ -27,3 +27,8 @@ dpkg: error processing network-manager (--remove):
  dependency problems - not removing
 Errors were encountered while processing:
 
+use dpkg to install the software:
+dpkg --install software :ex  dpkg --install foo_VVV-RRR.deb. 
+
+some detail information:
+see the address:http://www.debian.org/doc/FAQ/ch-pkgtools.en.html
