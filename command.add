@@ -111,7 +111,12 @@ scp usrname@server.com :path /filename .(from remote server to local server)
 find:find file the hard way
 find ~ -type d | wc -l
 
-
+**/how to remove the user account/**
+step one:to the root : run the command:sudo -i
+step two:use the command :deluser username
+step three:if you want to delete the user home derectory,run the command :rm
+-rf home.
+that's all
 
 
 
