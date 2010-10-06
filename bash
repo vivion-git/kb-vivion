@@ -1,3 +1,12 @@
+
+sudo -i          #enter the root account
+root@vivion-laptop:/# passwd
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+
+
+
 ## quote
 
 	vivion@vivion-laptop:~$ echo `ls`
