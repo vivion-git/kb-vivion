@@ -1,0 +1,13 @@
+if there is another user that can't enter ,because maybe some config files
+lost or you delete the useful files carelessly,so the user is not be used .
+if you want to delete all the user' files ,first you should delete the
+user,then if you can't delete the user's files when  you are deleting.the
+reason is maybe there are some config files that hide in the direction.so
+first you should find the config files ,jump to the direction ,and 
+use the command "ls -d .*" to see whether there is any hiden config files ,if
+there is,before you delete the files ,you must change the owner of the files,
+using"sudo chown vivion: config filename",and then delete them,using "rm -rf 
+filename",then delete the user's direction."sudo chown vivion: user's
+direction;rm -rf direction"
+until this time ,I know why I can't delete the user's direction .the problem 
+is about the promission.
