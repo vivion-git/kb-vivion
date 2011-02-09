@@ -1,0 +1,5 @@
+Important Note:
+when I am writing a a shell script,the important thing that I should remember
+that use "$" to get the value of the varible,"$i",use "printf"to print the
+varible ,not "print",use "echo"to display ,and add ";" when using the "for
+state,"for (()) ; do  ..;done",and "if ...;then else ...".
